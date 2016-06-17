@@ -14,6 +14,9 @@
 		7C26F6FE1D13458D000170BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C26F6FC1D13458D000170BC /* LaunchScreen.storyboard */; };
 		7C26F7091D13458D000170BC /* ProtoTinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C26F7081D13458D000170BC /* ProtoTinderTests.swift */; };
 		7C26F7141D13458D000170BC /* ProtoTinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C26F7131D13458D000170BC /* ProtoTinderUITests.swift */; };
+		7C26F7221D134748000170BC /* CardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C26F7211D134748000170BC /* CardsViewController.swift */; };
+		7C26F7241D135027000170BC /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C26F7231D135027000170BC /* Common.swift */; };
+		7C26F7261D1353F7000170BC /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C26F7251D1353F7000170BC /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		7C26F70F1D13458D000170BC /* ProtoTinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProtoTinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C26F7131D13458D000170BC /* ProtoTinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtoTinderUITests.swift; sourceTree = "<group>"; };
 		7C26F7151D13458D000170BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C26F7211D134748000170BC /* CardsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardsViewController.swift; sourceTree = "<group>"; };
+		7C26F7231D135027000170BC /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		7C26F7251D1353F7000170BC /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,7 @@
 		7C26F6E71D13458C000170BC = {
 			isa = PBXGroup;
 			children = (
+				7C26F7251D1353F7000170BC /* ProfileViewController.swift */,
 				7C26F6F21D13458C000170BC /* ProtoTinder */,
 				7C26F7071D13458D000170BC /* ProtoTinderTests */,
 				7C26F7121D13458D000170BC /* ProtoTinderUITests */,
@@ -97,9 +104,11 @@
 		7C26F6F21D13458C000170BC /* ProtoTinder */ = {
 			isa = PBXGroup;
 			children = (
+				7C26F7231D135027000170BC /* Common.swift */,
 				7C26F6F31D13458C000170BC /* AppDelegate.swift */,
 				7C26F6F51D13458C000170BC /* ViewController.swift */,
 				7C26F6F71D13458D000170BC /* Main.storyboard */,
+				7C26F7211D134748000170BC /* CardsViewController.swift */,
 				7C26F6FA1D13458D000170BC /* Assets.xcassets */,
 				7C26F6FC1D13458D000170BC /* LaunchScreen.storyboard */,
 				7C26F6FF1D13458D000170BC /* Info.plist */,
@@ -256,8 +265,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C26F7241D135027000170BC /* Common.swift in Sources */,
 				7C26F6F61D13458C000170BC /* ViewController.swift in Sources */,
+				7C26F7261D1353F7000170BC /* ProfileViewController.swift in Sources */,
 				7C26F6F41D13458C000170BC /* AppDelegate.swift in Sources */,
+				7C26F7221D134748000170BC /* CardsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
